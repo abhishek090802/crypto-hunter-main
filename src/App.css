@@ -1,0 +1,38 @@
+
+/* ChatGPT
+This code appears to be CSS code that sets some global styles for a web page. Let's go through it step by step to understand its functionality: */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;800&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;800&display=swap");: This line imports the "Montserrat" font family with three different font weights (300, 400, and 800) from the Google Fonts API. The display=swap parameter ensures that the browser swaps the default font with the "Montserrat" font as soon as it becomes available. */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+/* *: The asterisk (*) is a universal selector that targets all elements on the page.
+
+margin: 0;: This sets the margin of all elements to zero, effectively removing any default margins that might be applied by the browser.
+
+padding: 0;: This sets the padding of all elements to zero, removing any default padding applied by the browser.
+
+box-sizing: border-box;: This sets the box-sizing property to "border-box" for all elements. The "border-box" box model includes padding and border in the total width and height of an element, making it easier to manage the layout.
+
+scroll-behavior: smooth;: This enables smooth scrolling behavior when users click on anchor links to navigate to different sections of the page.
+
+ */
+
+a {
+  text-decoration: none;
+  color:red;
+}
+
+/* a: This targets all anchor (<a>) elements on the page.
+
+text-decoration: none;: This removes the underline decoration from anchor links, making them appear without underlines.
+
+color: red;: This sets the text color of anchor links to red. So, all anchor links on the page will be displayed in red. */
+
+/* Overall, this CSS code sets up a basic global styling for the web page. It resets margins and paddings, sets the box-sizing property, imports the "Montserrat" font, and customizes the style of anchor links by removing underlines and making them appear in red. */
